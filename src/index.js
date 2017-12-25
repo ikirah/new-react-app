@@ -7,7 +7,7 @@ const execSync = require('child_process').execSync
 const spawn = require('cross-spawn')
 const commandGit = require('simple-git/promise')
 const args = process.argv
-const commandName = 'new-react-app'
+const commandName = 'new-react-starter-pack'
 const projectName = args[2]
 const useYarn = shouldUseYarn()
 
@@ -72,7 +72,7 @@ function cloneTemplate(root) {
     console.log()
     console.log(`${chalk.cyan('Cloning template...')}`)
     console.log()
-    const repoPath = 'https://github.com/GA-MO/react-redux-gamo-boilerplate.git'
+    const repoPath = 'https://github.com/ikirah/react-starter-pack.git'
     const rootPart = `${root}/../`
     commandGit(rootPart).clone(repoPath, projectName)
     .then((err, result) => {
