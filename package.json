@@ -1,13 +1,13 @@
 {
-  "name": "new-react-app",
+  "name": "new-react-starter-pack",
   "private": false,
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "React starter boilerplate for client and server rendering (Universal)",
   "repository": {
-    "url": "https://github.com/GA-MO/new-react-app.git",
+    "url": "https://github.com/ikirah/new-react-starter-pack",
     "type": "git"
   },
-  "author": "Thawatchai Kuansombat (thawatchai.deartk@gmail.com)",
+  "author": "Kirana Hongsaphak Ref.Thawatchai Kuansombat (thawatchai.deartk@gmail.com)",
   "license": "MIT",
   "preferGlobal": true,
   "bin": {
